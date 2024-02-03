@@ -1,0 +1,6 @@
+github.com/a-h/templ v0.2.543 h1:8YyLvyUtf0/IE2nIwZ62Z/m2o2NqwhnMynzOL78Lzbk=
+github.com/a-h/templ v0.2.543/go.mod h1:jP908DQCwI08IrnTalhzSEH9WJqG/Q94+EODQcJGFUA=
+github.com/chasefleming/elem-go v0.19.0 h1:pSMbFw1DjiFujMIL1po6Rs9baYnph7OQdU7JKrhOo5I=
+github.com/chasefleming/elem-go v0.19.0/go.mod h1:hz73qILBIKnTgOujnSMtEj20/epI+f6vg71RUilJAA4=
+github.com/flosch/pongo2/v6 v6.0.0 h1:lsGru8IAzHgIAw6H2m4PCyleO58I40ow6apih0WprMU=
+github.com/flosch/pongo2/v6 v6.0.0/go.mod h1:CuDpFm47R0uGGE7z13/tTlt1Y6zdxvr2RLT5LJhsHEU=

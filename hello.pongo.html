@@ -1,0 +1,14 @@
+<div class="greeting">
+  <div>
+    Hello, {{ data.Hello }}, here are your TODOs
+  </div>
+  <ul>
+  {% for item in data.Todos %}
+    {% if item.Done %}
+    <li>{{ item.Title }} - done</li>
+    {% else %}
+    <li>{{ item.Title }} - nope</li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

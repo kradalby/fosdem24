@@ -1,0 +1,24 @@
+package main
+
+templ Hello(name string) {
+  <div>Hello, { name }, here are your TODOs</div>
+}
+
+templ Todos(todos []Todo) {
+  <ul>
+  for _, item := range todos {
+    if item.Done {
+      <li>{item.Title} - done</li>
+    } else {
+      <li>{item.Title} - nope</li>
+    }
+  }
+  </ul>
+}
+
+templ Greeting(data Data) {
+  <div class="greeting">
+    @Hello(data.Hello)
+    @Todos(data.Todos)
+  </div>
+}

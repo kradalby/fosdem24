@@ -1,0 +1,14 @@
+<div class="greeting">
+  <div>
+    Hello, {{.Hello}}, here are your TODOs
+  </div>
+  <ul>
+  {{ range .Todos -}}
+    {{ if .Done -}}
+    <li>{{ .Title }} - done</li>
+    {{- else }}
+    <li>{{ .Title }} - nope</li>
+    {{end -}}
+  {{end}}
+  </ul>
+</div>
